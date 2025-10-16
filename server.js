@@ -10,6 +10,7 @@ app.use (express.json ());
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}` ));
 
+app.get("/", (req, res) => res.send("Hello Railway!"));
 //  /me endpoint
 app.get('/me', async (req, res) => {
     
