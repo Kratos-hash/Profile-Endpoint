@@ -5,7 +5,7 @@
   - Personal info (email, name, stack)
   - Current UTC timestamp in ISO format
   - Random cat fact from external API
-- Handles API timeouts/failures
+- Handles API timeouts/failur
 - Returns proper JSON response with `Content-Type: application/json`
 
 
@@ -36,4 +36,4 @@ npm run start
 
 # Testing
 
-Visit: http://localhost:8080/me
+Visit: https://profile-endpoint-production-44d2.up.railway.app/me
